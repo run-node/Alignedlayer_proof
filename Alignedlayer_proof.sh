@@ -69,7 +69,7 @@ function main_menu() {
     echo "Discord链接：https://t.co/rQmFr0Fcio"
     echo "推特发文格式：  #aligned✅:证明链接   "
     echo "请选择要执行的操作:"
-    echo "1. 安装Alignedlayer Proof证明(接受手动执行source /root/.bashrc)"
+    echo "1. 安装Alignedlayer Proof证明(结束后请手动执行source /root/.bashrc)"
     echo "2. 执行Proo证明(请保存好链接通过推特发文 将推特发文链接发送到dc中的testnet频道)"
     echo "3. 验证Proof（执行Proo证明后 等待5分钟再验证）"
     echo "4. 清除证明数据"
