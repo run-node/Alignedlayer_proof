@@ -48,7 +48,7 @@ if echo "$verify_output" | grep -q "Your proof was not included in the batch"; t
     echo "证明在链上验证失败: Your proof was not included in the batch" >&2
     exit 1
 elif echo "$verify_output" | grep -q "Your proof was verified"; then
-    echo "证明在链上验证成功，请保存好该链接"
+    echo "证明在链上验证成功，请前往推特发文并将链接提交到dc频道中"
 else
     echo "证明在链上验证失败: 其他错误" >&2
     exit 1
